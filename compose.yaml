@@ -1,0 +1,21 @@
+services:
+  lts-node:
+    build: NodeLTS
+    container_name: ltsNode
+    ports:
+      - "1337:1337"
+    volumes:
+      - ./src:/home/src
+    depends_on:
+      - consolex-db
+
+  consolex-db:
+    build: Postgres
+    container_name: consolex-db
+    ports:
+      - "5432:5432"
+    volumes:
+      - consolex-db:/var/lib/postgresql/data
+
+volumes:
+  consolex-db:

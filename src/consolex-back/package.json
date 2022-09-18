@@ -1,0 +1,73 @@
+{
+  "name": "consolex-back",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/admin": "^4.3.6",
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/strapi": "4.3.6",
+    "pg": "8.8.0",
+    "react-select": "^5.4.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "29ba8b5d-0f47-434f-88ab-b8c103a64e06"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "^7.19.0",
+    "@babel/template": "^7.18.10",
+    "@fingerprintjs/fingerprintjs": "^3.3.5",
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@strapi/design-system": "^1.2.2",
+    "@strapi/icons": "^1.2.2",
+    "@strapi/typescript-utils": "^4.3.6",
+    "axios": "^0.27.2",
+    "codemirror": "6.0.1",
+    "cropperjs": "^1.5.12",
+    "css-loader": "^6.7.1",
+    "date-fns": "^2.29.2",
+    "font-awesome": "^4.7.0",
+    "highlight.js": "11.6.0",
+    "invariant": "^2.2.4",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "markdown-it": "^13.0.1",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-deflist": "^2.1.0",
+    "markdown-it-emoji": "^2.0.2",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "match-sorter": "^6.3.1",
+    "pluralize": "^8.0.0",
+    "prop-types": "^15.8.1",
+    "react-is": "^18.2.0",
+    "reselect": "^4.1.6",
+    "resolve": "^1.22.1",
+    "sanitize-html": "^2.7.1",
+    "semver": "^7.3.7",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.8.2",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
